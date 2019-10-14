@@ -1,6 +1,7 @@
 # notify_CO2_Hi
 
 **やりたいこと**
+
 部屋の二酸化炭素濃度をモニタし、  
 濃度が高くなったら MacOS の通知機能で換気を促す。  
 
@@ -9,6 +10,7 @@
 
 
 **利点**
+
 狭い部屋で作業をしていると、集中力が落ちて眠気を感じやすい。  
 これは部屋の二酸化炭素濃度が高くなることが原因。  
 
@@ -24,6 +26,7 @@ MacOS の通知機能で換気を促し、快適な住環境を提供する。
 
 
 **使い方**
+
 1. CO2Meter を Raspberry Pi にインストール  
 $ pip install git+https://github.com/heinemml/CO2Meter
 1. show_CO2.py を Raspberry Pi 上の任意フォルダに置く  
@@ -35,5 +38,6 @@ $ crontab cron.conf
 
 
 **通知画面**
-PC画面右上に以下の通知が表示される。
+
+PC画面右上に以下の通知が表示される。  
 ![notify_screen](https://user-images.githubusercontent.com/35166412/66727797-60dd9300-ee7c-11e9-9665-1760a643d4d9.png)
